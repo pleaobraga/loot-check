@@ -5,10 +5,10 @@
 
 # testing
 /coverage
-/src/components/__snapshots__/*
 
 # production
 /build
+/src/components/__snapshots__/*
 
 # misc
 .DS_Store
