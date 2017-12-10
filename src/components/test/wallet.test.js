@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme';
-import { Wallet } from './Wallet'
+import { Wallet } from '../Wallet'
 
 describe('Wallet', () => {
     const mockDeposit = jest.fn();
@@ -13,7 +13,7 @@ describe('Wallet', () => {
     });
 
     it('displays the balance from props', () => {
-        expect(wallet.find('.balance').text()).toEqual('Wallet Balance: 20')
+        expect(wallet.find('.balance').text()).toEqual('Wallet Balance: US$ 20,00')
     })
 
     it('creates an input to deposit into or withdraw from the balance', () => {

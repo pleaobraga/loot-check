@@ -1,16 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Wallet from './Wallet'
+import Loot from './Loot'
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <h2>Lout Check</h2>
-                <hr />
-                <Wallet />
-            </div>
-        )
-    }
+const bitcoinImage = require('../images/bitcoin.png');
+
+const App = () =>  {
+    return (
+        <div>
+            <h1>Bitcoin Conversor</h1>
+            <Loot />
+            <Wallet />
+        </div>
+    )
 }
 
 export default App;
