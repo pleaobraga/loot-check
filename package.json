@@ -2,6 +2,9 @@
   "name": "giftgiver",
   "version": "0.1.0",
   "private": true,
+  "author": { "name" : "Pedro Leão"
+    , "email" : "pleao.braga@gmail.com"
+  },
   "dependencies": {
     "react": "^16.2.0",
     "react-bootstrap": "^0.31.5",
